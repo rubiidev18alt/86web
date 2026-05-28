@@ -1,11 +1,19 @@
 # Data & runtime
 data/
 library/
+data-android/
 
 # Environment (contains secrets)
 .env
+.env.android
+
+# Android helper runtime
+android/venv/
+android/logs/
+android/pids/
 
 # Node / Frontend
+node_modules/
 frontend/node_modules/
 frontend/dist/
 frontend/.vite/
